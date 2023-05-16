@@ -1,335 +1,339 @@
 .sidenav-container {
-background-color: aquamarine;
-}
-    
-    
-    
-    
-.sidenav {
-width: 20px;
-}
-    
-    
-    
-.sidenav .mat-toolbar {
-background: inherit;
-}
-    
-    
-    
-    
-.mat-toolbar.mat-primary {
-position: sticky;
-z-index: 2;
-}
-    
-    
-    
-    
-    /* .encabezado{
-    
-      background: white;
-    
-      width: 100%;
-    
-      height: 150px;
-    
+    background-color: aquamarine;
+    }
+        
+        
+        
+        
+    .sidenav {
+    width: 20px;
+    }
+        
+        
+        
+    .sidenav .mat-toolbar {
+    background: inherit;
+    }
+        
+        
+        
+        
+    .mat-toolbar.mat-primary {
+    position: sticky;
+    z-index: 2;
+    }
+        
+        
+        
+        
+        /* .encabezado{
+        
+          background: white;
+        
+          width: 100%;
+        
+          height: 150px;
+        
+        }
+        
+        
+        
+        
+        .logo{
+        
+          width: 200px;
+        
+          height: 100px;
+        
+          position: sticky;
+        
+          top: 10px;
+        
+          left: 650px;
+        
+        }
+        
+        
+        
+        
+        .botonimagen{
+        
+          width: 200px;
+        
+          height: 60px;
+        
+          background-image : url('src\assets\flecha.jpg');
+        
+          background-repeat: no-repeat;
+        
+          background-size: 20px 20px;
+        
+          background-position: left center;
+        
+          position: absolute;
+        
+          left: 60px;
+        
+          bottom: 600px;
+        
+        }
+        
+        
+        
+        
+        .botonimagen2{
+        
+          width: 50px;
+        
+          height: 60px;
+        
+          background-image : url('src\assets\Login.png');
+        
+          background-repeat: no-repeat;
+        
+          background-size: 40px 40px;
+        
+          background-position: left center;
+        
+          text-align: right;
+        
+          position: absolute;
+        
+          left: 1350px;
+        
+          bottom: 600px;
+        
+        } */
+        
+    .encabezado {
+        
+    background: white; 
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 1%;
+    right: 0%;
+    }
+        
+        
+        
+        
+    .logo h2 {
+        
+    margin: 0;   
+    bottom: 10px; 
+    top: 50px; 
+    padding: 10px 20px;
+    }
+        
+        
+        
+        
+    nav { 
+    display: flex;
+    }
+        
+        
+        
+    .logo img {
+        
+    height: 40%;
+    margin-left: 100%;
+    }
+        
+        
+        
+        
+    .logo1 img {
+        
+    height: 50px;  
+    top: 10%;
+    margin-left: 10%;
+     }
+        
+        
+        
+        
+    nav a {
+    font-weight: 500;
+    padding-right: 10px;
+    text-decoration: none;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11pt;
+    }
+        
+        
+        
+        
+    nav a pre {
+    font-weight: 500;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11pt;
+    }
+        
+        
+        
+        
+    .login img {
+    height: 50%;
+    top: 100%;
+    margin-right: 0%;
+    margin-top: 30%;
     }
     
-    
-    
-    
-    .logo{
-    
-      width: 200px;
-    
-      height: 100px;
-    
-      position: sticky;
-    
-      top: 10px;
-    
-      left: 650px;
-    
+        /* .encabezado2{
+        
+          width: 100%;
+        
+          height: 55px;
+        
+          background: rgb(0, 0, 0);
+        
+        }
+        
+        
+        
+        
+        
+        .botones{
+        
+          color: white;
+        
+         text-decoration: none;
+        
+         
+        
+        
+        
+        
+          margin:50px;
+        
+        } */
+        
+    nav a:hover {
+    color: cadetblue;
     }
-    
-    
-    
-    
-    .botonimagen{
-    
-      width: 200px;
-    
-      height: 60px;
-    
-      background-image : url('src\assets\flecha.jpg');
-    
-      background-repeat: no-repeat;
-    
-      background-size: 20px 20px;
-    
-      background-position: left center;
-    
-      position: absolute;
-    
-      left: 60px;
-    
-      bottom: 600px;
-    
+        
+        
+        
+        
+    @media (max-width:70px) {
+    .encabezado {
+    flex-direction: column;
     }
-    
-    
-    
-    
-    .botonimagen2{
-    
-      width: 50px;
-    
-      height: 60px;
-    
-      background-image : url('src\assets\Login.png');
-    
-      background-repeat: no-repeat;
-    
-      background-size: 40px 40px;
-    
-      background-position: left center;
-    
-      text-align: right;
-    
-      position: absolute;
-    
-      left: 1350px;
-    
-      bottom: 600px;
-    
-    } */
-    
-.encabezado {
-    
-background: white; 
-width: 100%;
-height: 80px;
-text-align: center;
-justify-content: space-between;
-align-items: center;
-padding: 1% 1%;
-right: 0%;
-}
-    
-    
-    
-    
-.logo h2 {
-    
-margin: 0;   
-bottom: 10px; 
-top: 50px; 
-padding: 10px 20px;
-}
-    
-    
-    
-    
-nav { 
-display: flex;
-}
-    
-    
-    
-.logo img {
-    
-height: 40%;
-margin-left: 100%;
-}
-    
-    
-    
-    
-.logo1 img {
-    
-height: 50px;  
-top: 10%;
-margin-left: 10%;
- }
-    
-    
-    
-    
-nav a {
-font-weight: 500;
-padding-right: 10px;
-text-decoration: none;
-text-decoration: none;
-font-family: 'Times New Roman', Times, serif;
-font-size: 11pt;
-}
-    
-    
-    
-    
-nav a pre {
-font-weight: 500;
-padding-right: 10px;
-text-decoration: none;
-font-family: 'Times New Roman', Times, serif;
-font-size: 11pt;
-}
-    
-    
-    
-    
-.login img {
-height: 50%;
-top: 100%;
-margin-right: 0%;
-margin-top: 30%;
-}
-
-    /* .encabezado2{
-    
-      width: 100%;
-    
-      height: 55px;
-    
-      background: rgb(0, 0, 0);
-    
+        
     }
-    
-    
-    
-    
-    
-    .botones{
-    
-      color: white;
-    
-     text-decoration: none;
-    
-     
-    
-    
-    
-    
-      margin:50px;
-    
-    } */
-    
-nav a:hover {
-color: cadetblue;
-}
-    
-    
-    
-    
-@media (max-width:70px) {
-.encabezado {
-flex-direction: column;
-}
-    
-}
-    
-    
-    
-    
-.encabezado2 {   
-left: 0px;
- min-height: 10%;
-width: 100%;
-background-color: rgb(0, 0, 0);
-text-align: center;
-align-items: center;
-padding: 1% 0%;
-}
-    
-    
-    
-    
-.encabezado2 nav {
-text-align: center;
-align-items: center;
-margin: 5%;
-}
-    
-    
-    
-    
-.encabezado2 a {
-text-align: center;
-align-items: center;
-text-decoration: none;
-padding: 7% 5%;
-color: white;
-justify-content: space-between;
-right: 0%;
-margin: 5%;
-}
-    
-    
-    
-    
-.foterr {
-bottom: -6%;
-height: 10%;
-width: 100%;
-background-color: rgb(255, 255, 255);
-text-align: center;
-justify-content: space-between;
-align-items: center;
-padding: 2% -2%;
-right: 0%;
-position: absolute;
-}
-    
-    
-    
-    
-.image img { 
-width: 29%;  
-padding: 0%;
-margin: 2%;
- }
-    
-    
-    
-    
-.disney {
-width: 40%;
-height: 20%;
-}
-
-
-.imagenes{
-    width: 200px;
-    height: 200px;
-}
-.comics{
-    top: 90%;
-    width: 80%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top:10%;
-}
-
-body{
-    
-    height: 1700px;
-}
-
-h1{
+        
+        
+        
+        
+    .encabezado2 {   
+    left: 0px;
+     min-height: 10%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    padding: 1% 0%;
+    }
+        
+        
+        
+        
+    .encabezado2 nav {
+    text-align: center;
+    align-items: center;
+    margin: 5%;
+    }
+        
+        
+        
+        
+    .encabezado2 a {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 7% 5%;
     color: white;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 30pt;
-    position: absolute;
-    left: 580px;
-    top: 300px;
-}
-
-
-.image {
-    width: 30%;
-    height: 10%;
-    position: absolute;
-    left: 580px;
-    top: 200px;
+    justify-content: space-between;
+    right: 0%;
+    margin: 5%;
     }
+        
+        
+        
+        
+    .foterr {
+    bottom: -6%;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% -2%;
+    right: 0%;
+    position: absolute;
+    }
+        
+        
+        
+        
+    .image img { 
+    width: 29%;  
+    padding: 0%;
+    margin: 5%;
+     }
+        
+        
+        
+        
+    .disney {
+    width: 40%;
+    height: 20%;
+    }
+    
+    
+    .imagenes{
+        width: 200px;
+        height: 200px;
+    }
+    .comics{
+        top: 90%;
+        width: 200px;
+        height: auto;
+
+        margin-left: 20%;
+        font-size: 4pt;
+        margin-right: 25%;
+        margin-top:10%;
+    }
+    
+    body{
+        
+        height: 1700px;
+    }
+    
+    h1{
+        color: white;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 30pt;
+        position: absolute;
+        left: 860px;
+        top: 300px;
+    }
+    
+    
+    .image {
+        width: 20%;
+        height: 10%;
+        position: absolute;
+        left: 850px;
+        top: 200px;
+        
+        }
